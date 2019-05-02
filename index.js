@@ -12,7 +12,7 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-  return a - b;
+  return parseFloat(a - b);
 }
 
 function inc(n) {
